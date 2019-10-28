@@ -17,6 +17,7 @@ public abstract class Zombie implements Destroyable{
     public abstract void destroyed();
     
     public String getZombieInfo(){
+        System.out.println("Update");
         return null;
     }
 }
